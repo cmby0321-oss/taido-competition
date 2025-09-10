@@ -133,8 +133,9 @@ steps:
           SUBMODULE_HASH=$$(cat /workspace/submodule_hash.txt)
           IMAGE_TAG="asia-northeast1-docker.pkg.dev/taido-competition/ar-docker-repo/taido-competition-record:$$SUBMODULE_HASH"
           echo "Building image with tag: $$IMAGE_TAG"
-          docker build -t "$$IMAGE_TAG" taido-competition-record
+          docker build -t "$$IMAGE_TAG" .
           docker tag "$$IMAGE_TAG" asia-northeast1-docker.pkg.dev/taido-competition/ar-docker-repo/taido-competition-record:latest
+
         else
           echo "Skipping Docker build - image already exists"
         fi
