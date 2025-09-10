@@ -1,0 +1,51 @@
+.large_checkbox {
+  width: 40px;
+  height: 40px;
+}
+
+.column {
+  font-size: 20px;
+  height: 50px;
+}
+
+.elem {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.warn {
+  color: red;
+}
+
+.border_bottom td {
+  border-bottom: 4px double;
+}
+
+.border_right {
+  border-right: 4px double;
+}
+
+.winner {
+  color: red;
+  font-weight: bold;
+}
+
+.table_caption {
+  caption-side: bottom;
+  text-align: left;
+}
+
+.total {
+  padding: 1px 0;
+  text-align: right;
+  padding-right: 0.5em;
+  line-height: 0.8;
+}
+
+.total_winner {
+  padding: 1px 0;
+  text-align: right;
+  padding-right: 0.5em;
+  color: red;
+  font-weight: bold;
+}

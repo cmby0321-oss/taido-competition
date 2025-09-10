@@ -1,0 +1,12 @@
+version: "2.4"
+
+services:
+  app:
+    image: "ghcr.io/kazutomurase/taido-competition-record:latest"
+    env_file:
+      - .env
+    ports:
+      - ${PORT}:${PORT}
+    volumes:
+      - "./data:/ws/data"
+    command: /ws/tools/setup.bash ${COMPETITION_NAME}

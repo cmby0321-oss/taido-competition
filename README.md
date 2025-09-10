@@ -1,2 +1,3 @@
-# taido
-躰道大会用
+
+[ドキュメント](https://kazutomurase.github.io/taido-competition-record/)
+
